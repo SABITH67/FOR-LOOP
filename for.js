@@ -15,10 +15,19 @@
 // }
 
 
-for (i = 0; i <= 2;i++ ) {
+// for (i = 0; i <= 2;i++ ) {
+//     var star = "";
+
+//     for (j = 0; j <= 4;j++ ) {
+//         star += "*";
+//     }
+//     console.log(star);
+// }
+
+for (i = 4; i >= 1; i-- ) {
     var star = "";
 
-    for (j = 0; j <= 4;j++ ) {
+    for (j = 1; j <= i; j ++) {
         star += "*";
     }
     console.log(star);
